@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="90dp">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:padding="5dp"
+        android:src="@drawable/nz_icon"
+        android:id="@+id/ImageViewID">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Bangladesh"
+            android:textStyle="italic"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/countryNameTextID">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="16 million"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/populationTextID">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
